@@ -18,13 +18,13 @@
     "http-server": "^0.9.0",
     "jspm": "^0.16.32",
     "open": "0.0.5",
-    "reflect-metadata": "^0.1.2",
-    "rxjs": "^5.0.0-beta.2",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
     "zone.js": "^0.6.9"
   },
   "scripts": {
     "start": "node server",
-	"presetup": "npm install -g jspm",
+    "presetup": "npm install -g jspm",
     "setup": "npm install && jspm install"
   }
 }
