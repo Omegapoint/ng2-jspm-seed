@@ -1,0 +1,30 @@
+{
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.13",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.6",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.5"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "angular2": "^2.0.0-beta.13",
+    "chokidar-socket-emitter": "^0.5.1",
+    "es6-shim": "^0.35.0",
+    "http-server": "^0.9.0",
+    "jspm": "^0.16.32",
+    "open": "0.0.5",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.6.9"
+  },
+  "scripts": {
+    "start": "node server",
+	"presetup": "npm install -g jspm",
+    "setup": "npm install && jspm install"
+  }
+}
